@@ -1,7 +1,6 @@
-#include <iostream>
-
+#include <stdio.h>
 int main(int argc, char const *argv[])
 {
-	std::count << "Hello World!" << std::endl;
+	printf("Hello World\n");
 	return 0;
 }
